@@ -18,10 +18,10 @@ class Matrix {
 	public:
 		Matrix (int rowSize, int colSize);
 		~Matrix ();
-		void InputMatrix (); //input the matrix from the user row by row
+		void inputMatrix (); // input the matrix from the user row by row
 		void add (const Matrix& second, Matrix& result) const;
 		void subtract (const Matrix& second, Matrix& result) const;
-		void multiply (const Matrix& second, Matrix& result) const;
+		void multiply (const Matrix& third, Matrix& result) const;
 		void print () const;
 
 };
