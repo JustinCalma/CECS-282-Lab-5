@@ -1,3 +1,6 @@
+// Justin Calma
+// CECS 282 Lab 5
+
 #include <iostream>
 #include <cmath>
 #include <cstdlib>

@@ -10,11 +10,13 @@ using namespace std;
 // Matrix class definition
 class Matrix {
 	
+	// Declare private variables
 	private:
 		int rowSize;
 		int colSize;
 		int** ptr;
 	
+	// Declare public methods
 	public:
 		Matrix (int rowSize, int colSize);
 		~Matrix ();
